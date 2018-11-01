@@ -1,12 +1,16 @@
-@import url('//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css');
-
 @-moz-document url-prefix("https://mail.google.com/mail") {
+@import url('//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css');
 
 * {
 	box-shadow: none !important;
 	border-radius: 0px !important;
 	background: transparent;
 	border: none !important;
+	font-family: "Hack", Roboto !important;
+}
+html {
+	font-family: "Hack", Roboto !important;
+	
 }
 .md-button {
 	font-family: Roboto;
@@ -1292,11 +1296,18 @@ element {
 	background: #111;
 	border-top: 2px solid #111;
 }
-
 .cOoA8d,
 .GpRAbe,
 .jrx26e {
 	background: #111 !important;
+}
+
+.ma,
+.Tm .TC {
+	visibility: hidden;
+}
+.l6 {
+	font-size: 0.5rem !important;
 }
 }
 
